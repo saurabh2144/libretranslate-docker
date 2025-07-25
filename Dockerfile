@@ -1,2 +1,3 @@
 FROM libretranslate/libretranslate:latest
-EXPOSE 5001
+EXPOSE 10000
+CMD ["--port", "10000"]
